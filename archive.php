@@ -8,7 +8,6 @@
 					<h2> 相关分类： <?php single_cat_title(); ?></h2>
 				  <?php } elseif( is_tag() ) { ?>
 					<h2> Archived By Tags:  <?php single_tag_title(); ?></h2>
-				  <?php} elseif (is_day()) { ?>
 				
 				  <?php } ?>
 
